@@ -1226,6 +1226,11 @@ body::after {
 
 .footer summary {
   list-style: none;
+  list-style-type: none;
+}
+
+.footer summary::marker {
+  content: "";
 }
 
 .footer__grid {

@@ -1225,9 +1225,11 @@ body::after {
 }
 
 .footer summary {
-  list-style: none;
-  display: list-item;
+	list-style-type: none;
+	padding: 0;
 }
+
+.footer summary::-webkit-details-marker{display:none;}
 
 .footer__grid {
   display: -ms-grid;
